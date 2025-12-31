@@ -1,5 +1,6 @@
 *.qws
 *.bak
+*.rpt
 qar_info.json
 
 db/

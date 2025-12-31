@@ -101,25 +101,25 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[1]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[0]
 set_location_assignment PIN_B8 -to nreset
 set_instance_assignment -name IO_STANDARD "3.3 V SCHMITT TRIGGER" -to nreset
-set_global_assignment -name SYSTEMVERILOG_FILE deco7seg.sv
-set_global_assignment -name SYSTEMVERILOG_FILE displays.sv
-set_global_assignment -name SYSTEMVERILOG_FILE shifter.sv
-set_global_assignment -name SYSTEMVERILOG_FILE top.sv
-set_global_assignment -name SYSTEMVERILOG_FILE imem.sv
-set_global_assignment -name SYSTEMVERILOG_FILE dmem.sv
-set_global_assignment -name SYSTEMVERILOG_FILE arm.sv
-set_global_assignment -name SYSTEMVERILOG_FILE controller.sv
-set_global_assignment -name SYSTEMVERILOG_FILE decoder.sv
-set_global_assignment -name SYSTEMVERILOG_FILE condlogic.sv
-set_global_assignment -name SYSTEMVERILOG_FILE datapath.sv
-set_global_assignment -name SYSTEMVERILOG_FILE regfile.sv
-set_global_assignment -name SYSTEMVERILOG_FILE alu.sv
-set_global_assignment -name SYSTEMVERILOG_FILE extend.sv
-set_global_assignment -name SYSTEMVERILOG_FILE adder.sv
-set_global_assignment -name SYSTEMVERILOG_FILE mux2.sv
-set_global_assignment -name SYSTEMVERILOG_FILE flopr.sv
-set_global_assignment -name SYSTEMVERILOG_FILE flopenr.sv
-set_global_assignment -name SYSTEMVERILOG_FILE testbench_peripherals.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/deco7seg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/displays.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/shifter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/top.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/imem.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/dmem.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/arm.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/controller.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/decoder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/condlogic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/datapath.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/regfile.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/alu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/extend.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/adder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/mux2.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/flopr.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/flopenr.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/testbench_peripherals.sv
 set_location_assignment PIN_C17 -to s1[6]
 set_location_assignment PIN_D17 -to s1[5]
 set_location_assignment PIN_E16 -to s1[4]
@@ -192,10 +192,10 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to s5[3]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to s5[2]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to s5[1]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to s5[0]
-set_global_assignment -name SYSTEMVERILOG_FILE flopclenr.sv
-set_global_assignment -name SYSTEMVERILOG_FILE flopclr.sv
-set_global_assignment -name SYSTEMVERILOG_FILE mux3.sv
-set_global_assignment -name SYSTEMVERILOG_FILE hazard.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/flopclenr.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/flopclr.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/mux3.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/hazard.sv
 set_location_assignment PIN_N20 -to s6[6]
 set_location_assignment PIN_N19 -to s6[5]
 set_location_assignment PIN_M20 -to s6[4]
