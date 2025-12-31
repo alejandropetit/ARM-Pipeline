@@ -1,0 +1,8 @@
+/*
+ * This module is the Adder of the Datapath Unit
+ */ 
+module adder #(parameter WIDTH = 8)
+		(input logic [WIDTH-1:0] a, b,
+		 output logic [WIDTH-1:0] y);
+	assign y = a + b;
+endmodule

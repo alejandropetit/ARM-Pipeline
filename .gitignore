@@ -1,0 +1,11 @@
+*.qws
+*.bak
+qar_info.json
+
+db/
+incremental_db/
+output_files/
+simulation/
+simulation_restore/
+devkits/
+
